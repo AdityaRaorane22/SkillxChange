@@ -1,0 +1,110 @@
+/* Base Navigation Styling */
+.navbar {
+  background-color: #001B2B !important;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  padding: 10px;
+  transition: all 0.3s ease;
+}
+
+.container {
+  display: flex;
+  max-width: 100%;
+  width:100%;
+  justify-content: space-between; /* Ensure space between brand and menu */
+  align-items: center; /* Align brand and menu vertically */
+  padding: 15px;
+}
+
+/* Brand styling */
+.navbar-brand {
+  font-size: 26px;
+  color: white;
+  text-decoration: none;
+  font-family: "Lora", serif;
+}
+
+.yellowhead {
+  color: #fbd500;
+}
+
+/* Mobile Toggle Button */
+.navbar-toggle {
+  display: none;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+.navbar-toggle .icon-bar {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 4px 0;
+  transition: 0.4s;
+}
+
+/* Navigation Menu */
+.navbar-menu {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-menu ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-menu ul li {
+  margin: 0 15px;
+}
+
+.navbar-menu ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s ease;
+  font-family: 'Ubuntu';
+}
+
+.navbar-menu ul li a:hover {
+  color: #fbd500;
+}
+
+/* Responsive Design for Mobile */
+@media (max-width: 768px) {
+  .navbar-toggle {
+    display: block;
+    cursor: pointer;
+  }
+
+  .navbar-menu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    background-color: #001B2B;
+    padding: 10px 0;
+    width: 100%;
+  }
+
+  .navbar-menu.open {
+    display: flex;
+  }
+
+  .navbar-menu ul {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+
+  .navbar-menu ul li {
+    margin: 10px 0;
+  }
+}

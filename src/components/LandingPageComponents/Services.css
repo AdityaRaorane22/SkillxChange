@@ -1,0 +1,78 @@
+/* Base container styling */
+.services-container {
+    padding: 60px 0;
+    background-color: #cdc2c2aa;
+  }
+  
+  .container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  /* Section title styling */
+  .section-title h2 {
+    font-size: 36px;
+    margin: 20px;
+    margin-right: 50px;
+    text-transform: uppercase;
+    color: #333;
+    text-align: center;
+    font-family: 'Ubuntu';
+  }
+  
+  /* Service cards layout */
+  .services-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .service-card {
+    flex: 1 1 calc(33.333% - 20px); /* For three cards per row */
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    font-family: 'Ubuntu';
+  }
+  
+  .service-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Icon styling */
+  .service-icon {
+    font-size: 48px;
+    color: #fbd500;
+    margin-bottom: 15px;
+  }
+  
+  /* Service description */
+  .service-desc h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .service-desc p {
+    font-size: 16px;
+    color: #777;
+  }
+  
+  /* Responsive styling */
+  @media (max-width: 768px) {
+    .service-card {
+      flex: 1 1 calc(50% - 20px); /* Two cards per row on tablets */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .service-card {
+      flex: 1 1 100%; /* One card per row on small devices */
+    }
+  }
+  

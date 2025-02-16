@@ -1,0 +1,88 @@
+/* My_Registrations.css */
+
+.my-registrations-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f8f9fa; /* Light background color */
+  font-family: Ubuntu; /* Consistent font */
+
+}
+
+.body {
+  width: 100%;
+  max-width: 1200px; /* Maximum width for larger screens */
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff; /* White background for body */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+h1 {
+  color: #343a40; /* Darker color for headings */
+  font-size: 2rem; /* Font size for main title */
+  margin-bottom: 20px; /* Space below the heading */
+  text-align: center; /* Centering the title */
+}
+
+.error-message {
+  color: #dc3545; /* Bootstrap danger color for errors */
+  margin-bottom: 20px; /* Space below the error message */
+  text-align: center; /* Centering the error message */
+}
+
+.calendar {
+  width: 100%; /* Full width */
+}
+
+.react-big-calendar {
+  border: 1px solid #ced4da; /* Border around the calendar */
+  border-radius: 8px; /* Rounded corners for calendar */
+}
+
+.react-big-calendar .rbc-event {
+  background-color: #007bff; /* Bootstrap primary color for events */
+  border: none; /* No border for events */
+  color: white; /* White text color */
+  border-radius: 4px; /* Slightly rounded corners */
+  padding: 5px 10px; /* Padding for event text */
+}
+
+.react-big-calendar .rbc-event:hover {
+  background-color: #0056b3; /* Darker color on hover */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+.rbc-month-view {
+  background-color: #ffffff; /* White background for month view */
+}
+
+.rbc-month-view .rbc-header {
+  background-color: #e9ecef; /* Light grey background for headers */
+  font-weight: bold; /* Bold text for headers */
+  padding: 10px; /* Padding for headers */
+}
+
+.rbc-month-view .rbc-header:hover {
+  background-color: #dee2e6; /* Slightly darker grey on hover */
+}
+
+.rbc-day-slot {
+  background-color: #f8f9fa; /* Light background for day slots */
+}
+
+@media (max-width: 768px) {
+  .my-registrations-container {
+      padding: 10px; /* Reduced padding for smaller screens */
+  }
+
+  .body {
+      padding: 10px; /* Reduced padding for body */
+  }
+
+  h1 {
+      font-size: 1.5rem; /* Smaller font size for headings on mobile */
+  }
+}

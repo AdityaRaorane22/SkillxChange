@@ -1,0 +1,86 @@
+/* Container styling for the about section */
+.about-container {
+  padding: 60px 0;
+}
+
+.about-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+/* About Image Styling */
+.about-image {
+  flex: 1 1 45%; /* Image takes 45% of the space */
+}
+
+.about-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* About Text Styling */
+.about-text-wrapper {
+  flex: 1 1 45%; /* Text takes 45% of the space */
+}
+
+.about-text h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #333;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.about-text p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  color: #555;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.about-text h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #333;
+  font-family: "Ubuntu", sans-serif;
+}
+
+/* List styling */
+.list-style {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.list-column {
+  flex: 1 1 50%;
+}
+
+.list-column ul {
+  padding-left: 20px;
+
+}
+
+.list-column ul li {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #555;
+  list-style: disc;
+  font-family: "Ubuntu", sans-serif;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .about-row {
+    flex-direction: column;
+  }
+
+  .about-image,
+  .about-text-wrapper {
+    flex: 1 1 100%;
+  }
+}

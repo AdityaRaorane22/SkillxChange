@@ -1,0 +1,60 @@
+/* CreateEvent.css */
+
+.create-event-container {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #1c1a1a;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+  }
+  
+  .create-event-container h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .event-form {
+    background-color: rgba(119, 101, 127, 0.5);
+    padding: 30px;
+    display:block;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    border: 2px solid rgba(255, 255, 255, 0.5); 
+  }
+  
+  .event-label {
+    display: block;
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  
+  .event-input,
+  .event-textarea,
+  .event-select {
+    width: 100%;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.7);
+    font-size: 1rem;
+  }
+  
+  .event-textarea {
+    resize: vertical;
+    height: 50px;
+  }
+  
+  @media (max-width: 768px) {
+    form {
+      width: 90%;
+      padding: 20px;
+    }
+  }
+  

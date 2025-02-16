@@ -1,0 +1,89 @@
+/* Header Section */
+.header-section {
+  position: relative;
+  height: 100vh; /* The video covers only this section */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  color: white !important;
+}
+
+/* Wrapper to contain the video background within the header */
+.video-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* z-index: -1; */
+  overflow: hidden;
+}
+
+/* The video will fit within the wrapper without affecting other parts of the page */
+.background-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: relative;
+}
+
+/* Dark overlay for better readability */
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /*Dark overlay for readability*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Intro Content */
+.intro-content {
+  text-align: center;
+  max-width: 800px;
+  padding: 20px;
+}
+
+.intro-content h1 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.intro-content p {
+  font-size: 18px;
+  margin-bottom: 40px;
+  color: yellow;
+  font-family: "Ubuntu", sans-serif;
+}
+
+/* Button Styling */
+.custom-btn {
+  display: inline-block;
+  padding: 12px 30px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 30px;
+  transition: background-color 0.3s ease;
+}
+
+.custom-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive Behavior */
+@media (max-width: 768px) {
+  .intro-content h1 {
+      font-size: 36px;
+  }
+
+  .intro-content p {
+      font-size: 16px;
+  }
+}

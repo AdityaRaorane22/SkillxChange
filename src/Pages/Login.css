@@ -1,0 +1,68 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch; /* Stretch to fill width */
+  justify-content: center;
+  width: 30%; /* Adjusted width */
+  background: rgba(156, 219, 242, 0.46);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(42, 199, 234, 0.374);
+  font-family: Ubuntu, sans-serif; /* Added fallback font */
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.login-label {
+  flex: 1; /* Take up one part */
+  text-align: left;
+  margin-right: 10px;
+  font-weight: bold; /* Make the label bold */
+}
+
+.login-field {
+  flex: 2; /* Take up two parts */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.login-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.login-button:hover {
+  background-color: #0056b3;
+}
+
+.link {
+  color: #6e8efb;
+  cursor: pointer;
+  margin-top: 10px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.link:hover {
+  color: #0056b3;
+}

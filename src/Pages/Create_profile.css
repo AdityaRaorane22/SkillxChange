@@ -1,0 +1,97 @@
+.signup-form {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 40%;
+  background: rgba(55, 166, 206, 0.46);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(67, 135, 150, 0.374);
+  font-family: Ubuntu, sans-serif;
+}
+
+.title {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #333;
+}
+
+.signup-input-field {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 1px 3px rgba(139, 200, 226, 0.1);
+}
+
+textarea.signup-input-field {
+  resize: none;
+  height: 100px;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(59, 158, 233);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.submit-button:hover {
+  background-color: rgb(52, 103, 231);
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.skill-tag {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgba(42, 199, 234, 0.374);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.skill-tag:hover {
+  background-color: rgba(42, 199, 234, 0.6);
+}
+
+.skill-tag.selected {
+  background-color: rgba(42, 199, 234, 0.9);
+  color: white;
+}
+
+.selected-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.selected-skill {
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: rgba(59, 158, 233, 0.8);
+  color: white;
+}
+
+.remove-skill {
+  margin-left: 5px;
+  cursor: pointer;
+  color: red;
+}

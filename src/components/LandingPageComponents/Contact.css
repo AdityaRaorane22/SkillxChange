@@ -1,0 +1,104 @@
+/* Container styling */
+.custom-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Ubuntu';
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .custom-form-section {
+    margin: auto;
+    /* margin-bottom: 50px; */
+  }
+  
+  /* Form styling */
+  .form-row {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  form {
+    margin: auto;
+  }
+  .custom-input,
+  .custom-textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .custom-btn {
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .custom-btn:hover {
+    background-color: #4cae4c;
+  }
+  
+  /* Contact info styling */
+  .custom-contact-info {
+    margin-top: 30px;
+  }
+  
+  .contact-item {
+    margin-bottom: 20px;
+  }
+  
+  .contact-item span {
+    font-weight: bold;
+  }
+  
+  /* Social links styling */
+  .custom-social-section {
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .social-links {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .social-links li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  .social-links a {
+    color: #333;
+    font-size: 24px;
+    text-decoration: none;
+  }
+  
+  .social-links a:hover {
+    color: #007bff;
+  }
+  
+  /* Footer */
+  #footer {
+    background-color: #f8f8f8;
+    padding: 20px 0;
+  }
+  
+  #footer p {
+    margin: 0;
+    font-size: 14px;
+  }
+  

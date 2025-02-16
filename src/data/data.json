@@ -1,0 +1,184 @@
+{
+  "Header": {
+    "title": "Discover, Share, and Grow Your Skills.",
+    "paragraph": "Join our community to exchange knowledge, host workshops, and connect with experts in various fields."
+  },
+  "About": {
+    "paragraph": "At SkillxChange, we believe in the power of shared knowledge and collaboration. Our platform connects individuals from diverse fields, enabling them to exchange skills, host workshops, and grow their expertise together. By fostering a community-driven environment, we aim to make learning and skill development accessible to everyone. Join us to discover new passions, enhance your abilities, and contribute to a vibrant, skill-sharing ecosystem.",
+    "Why": [
+      "Real-Time Interaction",
+      "Collaborative Opportunities",
+      "Skill Endorsements and Ratings",
+      "Accessible Learning"
+    ],
+    "Why2": [
+      "Skill Wallet",
+      "Smart Matching",
+      "Resource Library",
+      "Interactive Learning"
+    ]
+  },
+  "Gallery": [
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/01-large.jpg",
+      "smallImage": "img/portfolio/01-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/02-large.jpg",
+      "smallImage": "img/portfolio/02-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/03-large.jpg",
+      "smallImage": "img/portfolio/03-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/04-large.jpg",
+      "smallImage": "img/portfolio/04-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/05-large.jpg",
+      "smallImage": "img/portfolio/05-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/06-large.jpg",
+      "smallImage": "img/portfolio/06-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/07-large.jpg",
+      "smallImage": "img/portfolio/07-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/08-large.jpg",
+      "smallImage": "img/portfolio/08-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/09-large.jpg",
+      "smallImage": "img/portfolio/09-small.jpg"
+    }
+  ],
+  "Services": [
+    {
+      "icon": "fa fa-wordpress",
+      "name": "Real-Time Interaction",
+      "text": "Engage in live video sessions for immediate and effective skill exchange, enabling real-time feedback and hands-on learning experiences."
+    },
+    {
+      "icon": "fa fa-cart-arrow-down",
+      "name": "Collaborative Opportunities",
+      "text": "Work on larger community projects by pooling resources and skills, fostering teamwork and collective growth within the community."
+    },
+    {
+      "icon": "fa fa-cloud-download",
+      "name": "Flexible Transactions",
+      "text": "Exchange skills with skill coins or purchase them directly with real money, providing flexibility and accessibility to all users"
+    },
+    {
+      "icon": "fa fa-language",
+      "name": "Recognition System",
+      "text": "Use time credits to earn and give skill endorsements and ratings, ensuring that contributions are acknowledged and valued by the community."
+    },
+    {
+      "icon": "fa fa-plane",
+      "name": "Accessible Learning",
+      "text": "Make learning and skill development accessible to all, regardless of background, ensuring that everyone has the opportunity to grow and succeed."
+    },
+    {
+      "icon": "fa fa-pie-chart",
+      "name": "Community Support",
+      "text": "Be a part of a supportive network that values knowledge sharing and mutual growth, creating a collaborative environment for continuous improvement."
+    }
+  ],
+  "Testimonials": [
+    {
+      "img": "img/testimonials/01.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/02.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    },
+    {
+      "img": "img/testimonials/03.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/04.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    },
+    {
+      "img": "img/testimonials/05.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/06.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    }
+  ],
+  "Team": [
+    {
+      "img": "img/team/01.jpg",
+      "name": "Aditya RaoRane",
+      "job": "Director"
+    },
+    {
+      "img": "img/team/02.jpg",
+      "name": "Mike Doe",
+      "job": "Senior Designer"
+    },
+    {
+      "img": "img/team/03.jpg",
+      "name": "Jane Doe",
+      "job": "Senior Designer"
+    },
+    {
+      "img": "img/team/04.jpg",
+      "name": "Karen Doe",
+      "job": "Project Manager"
+    }
+  ],
+  "Contact": {
+    "address": " 4321 Chembur Palace, Mumbai, Maharashtra 12345 ",
+    "phone": " +1 123 456 1234",
+    "email": " info@skillxchange.com",
+    "facebook": " fb.com",
+    "twitter": " twitter.com",
+    "youtube": " youtube.com"
+  },
+  "Features": [
+    {
+      "icon": "fa fa-comments-o",
+      "title": "Live Video Sessions",
+      "text": "Engage in real-time skill exchanges via live video conferencing."
+    },
+    {
+      "icon": "fa fa-bullhorn",
+      "title": "Collaborative Projects",
+      "text": "Join forces with others on community projects by pooling your skills"
+    },
+    {
+      "icon": "fa fa-group",
+      "title": "Time Credit Endorsements",
+      "text": "Earn and give skill endorsements and ratings managed through time credits."
+    },
+    {
+      "icon": "fa fa-magic",
+      "title": "Flexible Skill Transactions",
+      "text": "Exchange skills with skill coins or purchase them with real money."
+    }
+  ]
+}
